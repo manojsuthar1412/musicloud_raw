@@ -1,0 +1,7 @@
+./frontend/spotify_clone/node_modules
+./frontend/spotify_clone/.env
+
+./backend/build
+./backend/node_modules
+./backend/.env
+./backend/backend.zip

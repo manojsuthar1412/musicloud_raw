@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="292" height="272" viewBox="0 0 292 272">
+  <defs>
+    <filter id="Path_1" x="17.323" y="13.04" width="260.033" height="227.553" filterUnits="userSpaceOnUse">
+      <feOffset dx="1" dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="MN" x="98" y="146" width="99" height="63" filterUnits="userSpaceOnUse">
+      <feOffset dx="1" dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-black">
+      <rect width="292" height="272"/>
+    </clipPath>
+  </defs>
+  <g id="black" clip-path="url(#clip-black)">
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Path_1)">
+      <path id="Path_1-2" data-name="Path 1" d="M-74.941,135.332h0L13.991-18.816h0L135.356,189.737H-106.677l15-27.839H88.275L13.991,34.194-45.3,135.332Z" transform="translate(132 31.86)" fill="#4b4b4b"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#MN)">
+      <text id="MN-2" data-name="MN" transform="translate(106 150)" fill="#389790" font-size="45" font-family="JosefinSans-Regular, Josefin Sans"><tspan x="0" y="34">MN</tspan></text>
+    </g>
+    <text id="Soft" transform="translate(103 232)" fill="#668080" font-size="45" font-family="JosefinSans-Regular, Josefin Sans"><tspan x="0" y="34">Soft</tspan></text>
+  </g>
+</svg>

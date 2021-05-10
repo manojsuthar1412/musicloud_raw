@@ -1,0 +1,27 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.0",
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "ibm-cos-sdk": "^1.10.0",
+    "lyrics-finder": "^21.7.0",
+    "nodemon": "^2.0.7",
+    "spotify-dl": "^0.5.2",
+    "spotify-web-api-node": "^5.0.2",
+    "xml-js": "^1.6.11"
+  }
+}
